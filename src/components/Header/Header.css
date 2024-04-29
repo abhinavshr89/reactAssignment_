@@ -1,0 +1,52 @@
+/* CSS for the header component */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: 80vw;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+}
+
+.header-left-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: smaller;
+}
+
+.header-left {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.save-button {
+    background-color: lightseagreen; /* Light sea green color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+}
+
+/* Optional: Add hover effect */
+.save-button:hover {
+    background-color: #3cb9b9; /* Darker shade of sea green */
+}

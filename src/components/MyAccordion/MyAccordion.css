@@ -1,0 +1,43 @@
+.civil-container {
+  position: relative;
+  border: 1px solid rgb(236, 228, 228);
+}
+
+.temp-container {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  position: relative;
+}
+
+.civil-container-left {
+  display: flex;
+  align-items: center;
+  width: 40%; /* Set the width of the left container to 40% */
+}
+
+.civil-container-left .drop-icon {
+  position: absolute;
+  right: 10px;
+  color: lightseagreen;
+}
+
+.civil-container-left .check-box {
+  margin-left: 20px;
+}
+
+.civil-container-left p {
+  margin-left: 20px;
+}
+
+.civil-container-right {
+  display: flex;
+  align-items: center;
+  width: 60%; /* Set the width of the right container to 60% */
+}
+
+.box {
+  width: 50%; /* Set the width of each box within the right container */
+  display: flex;
+  align-items: center;
+}

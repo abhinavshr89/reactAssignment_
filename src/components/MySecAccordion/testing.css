@@ -1,0 +1,97 @@
+.activity-container {
+  display: flex;
+  position: relative;
+  padding: 10px;
+}
+
+.activity-container .toggle-icon {
+  position: absolute;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  top: 30%;
+  font-size: large;
+}
+
+.activity-container .check-box {
+  margin-left: 50px;
+}
+
+.activity-container p {
+  margin-left: 10px;
+}
+
+.work-container {
+  border-left: 1px solid rgb(230, 203, 203);
+  margin-left: 44px;
+  padding-left: 30px;
+}
+
+.work-container .work-box {
+  display: flex;
+  padding: 10px;
+}
+
+.work-container .work-box .check-box {
+  margin-left: 10px;
+}
+
+.work-container .work-box p {
+  margin-left: 10px;
+}
+
+.work-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.check-box.work-check-box {
+  position: relative;
+  margin-right: 10px;
+}
+
+.check-box.work-check-box::before {
+  content: "";
+  position: absolute;
+  left: -16px;
+  top: -13px;
+  width: 1px;
+  height: 150%;
+  background-color: rgb(233, 214, 214);
+}
+
+.check-box.work-check-box::after {
+  content: "";
+  position: absolute;
+  left: -15px;
+  bottom: 50%;
+  width: 15px;
+  height: 1px;
+  background-color: rgb(225, 210, 210);
+}
+
+.activity-check-box {
+  position: relative;
+  margin-right: 10px;
+}
+
+.activity-check-box::before {
+  content: "";
+  position: absolute;
+  left: -16px;
+  top: -11px;
+  width: 1px;
+  height: 100%;
+  background-color: rgb(233, 214, 214);
+}
+
+.activity-check-box::after {
+  content: "";
+  position: absolute;
+  left: -15px;
+  bottom: 43%;
+  width: 15px;
+  height: 1px;
+  background-color: rgb(225, 210, 210);
+}
